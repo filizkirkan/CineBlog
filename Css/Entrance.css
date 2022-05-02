@@ -1,0 +1,51 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.holder {
+    width: 400px;
+    min-height: 300px;
+    border: 1px solid silver;
+    border-radius: 7px;
+    margin: 200px auto;
+    color: #730337;
+}
+
+.topic {
+    background-color: #BDD9B0;
+    text-align: center;
+    padding: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.content {
+    padding: 20px;
+    
+}
+
+.row {
+    padding-bottom: 25px;
+}
+
+.textbox {
+    width: 336px;
+    padding: 7px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid silver;
+}
+
+.errorbox {
+    border: 1px solid darkred;
+    background-color: #BF8F84;
+    color: darkred;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminPanel/AdminPanel.Master" AutoEventWireup="true" CodeBehind="AddCategory.aspx.cs" Inherits="_2.Sequence.AdminPanel.AddCategory" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+ <link href="Css/FormDesign.css" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="formholder">
+        <div class="topic">
+            Add Category
+        </div>
+        <div class="formcontent">
+            <asp:Panel ID="pnl_unsuccessful" runat="server" CssClass="pnlsuccessful" Visible="false">
+                <asp:Label ID="lbl_message" runat="server"></asp:Label>
+            </asp:Panel>
+             <asp:Panel ID="pnl_succesful" runat="server" CssClass="pnlsuccessful" Visible="false">
+               Category Addition Process is successful.
+            </asp:Panel>
+            <div class="row">
+                <label>Category Name</label><br />
+                <asp:TextBox ID="tb_name" runat="server" CssClass="textbox"></asp:TextBox>
+            </div>
+             <div class="row">
+                <asp:CheckBox ID="cb_statu" runat="server" Text="Publish Category" Checked="true"></asp:CheckBox> 
+            </div>
+            <div class="row">
+                <asp:LinkButton ID="lbtn_add" runat="server" OnClick="lbtn_add_Click" CssClass="button Deep-Teal-Sea-2-bg">Add Category</asp:LinkButton>
+            </div>
+        </div>
+    </div>
+</asp:Content>

@@ -1,0 +1,181 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.upperMenu {
+    min-height: 63px;
+    color: #BF8F84;
+    background-color: #BDD9B0;
+}
+
+.Topic {
+    color: #730337;
+    padding: 20px 10px;
+    width: 220px;
+    float: left;
+}
+
+.User {
+    color: #730337;
+    float: right;
+    padding: 20px;
+}
+
+    .User a {
+        color: #730337;
+        text-decoration: none;
+    }
+
+        .User a:hover {
+            text-decoration: underline;
+        }
+
+
+
+
+/* Color Theme Swatches in Hex */
+.BEFORE-SUNSET-1-hex {
+    color: #BF395D;
+}
+
+.BEFORE-SUNSET-2-hex {
+    color: #730337;
+}
+
+.BEFORE-SUNSET-3-hex {
+    color: #A60A53;
+}
+
+.BEFORE-SUNSET-4-hex {
+    color: #BDD9B0;
+}
+
+.BEFORE-SUNSET-5-hex {
+    color: #BF8F84;
+}
+
+/* Color Theme Swatches in RGBA */
+.BEFORE-SUNSET-1-rgba {
+    color: rgba(191, 57, 93, 1);
+}
+
+.BEFORE-SUNSET-2-rgba {
+    color: rgba(114, 3, 55, 1);
+}
+
+.BEFORE-SUNSET-3-rgba {
+    color: rgba(165, 9, 82, 1);
+}
+
+.BEFORE-SUNSET-4-rgba {
+    color: rgba(188, 216, 175, 1);
+}
+
+.BEFORE-SUNSET-5-rgba {
+    color: rgba(191, 142, 131, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.BEFORE-SUNSET-1-hsla {
+    color: hsla(343, 53, 48, 1);
+}
+
+.BEFORE-SUNSET-2-hsla {
+    color: hsla(331, 94, 23, 1);
+}
+
+.BEFORE-SUNSET-3-hsla {
+    color: hsla(331, 88, 34, 1);
+}
+
+.BEFORE-SUNSET-4-hsla {
+    color: hsla(101, 34, 76, 1);
+}
+
+.BEFORE-SUNSET-5-hsla {
+    color: hsla(11, 31, 63, 1);
+}
+/* Color Theme Swatches in Hex */
+/*.Deep-Teal-Sea-1 {
+    color: #012E40;
+}
+
+.Deep-Teal-Sea-2 {
+    color: #024959;
+}
+
+.Deep-Teal-Sea-3 {
+    color: #026773;
+}
+
+.Deep-Teal-Sea-4 {
+    color: #3CA6A6;
+}
+
+.Deep-Teal-Sea-5 {
+    color: #F2E3D5;
+}
+
+.Deep-Teal-Sea-1-bg {
+    background-color: #012E40;
+}
+
+.Deep-Teal-Sea-2-bg {
+    background-color: #024959;
+}
+
+.Deep-Teal-Sea-3-bg {
+    background-color: #026773;
+}
+
+.Deep-Teal-Sea-4-bg {
+    background-color: #3CA6A6;
+}
+
+.Deep-Teal-Sea-5-bg {
+    background-color: #F2E3D5;
+}*/
+
+.menu {
+    width: 240px;
+    padding: 20px 0px;
+    min-height: 1000px;
+    float: left;
+    background-color: #BF8F84;
+}
+
+    .menu ul {
+        list-style-type: none;
+    }
+
+        .menu ul a {
+            text-decoration: none;
+            color: #BF395D;
+        }
+
+            .menu ul a li {
+                border-bottom: 1px solid silver;
+                padding: 5px;
+                padding-left: 20px;
+            }
+
+                .menu ul a li:hover {
+                    background-color: #BF8F84;
+                }
+
+.content {
+    float: left;
+    padding: 20px;
+    width: 82%
+}
+
+
+
+
+
+

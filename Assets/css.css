@@ -1,0 +1,124 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.mainholder {
+    /*margin-left:auto;margin-right:auto;*/
+    margin: 0 auto;
+    width: 1200px;
+    min-height: 768px;
+}
+
+.bannerholder{
+    margin-top: 20px;
+}
+
+.bannertext {
+    border-bottom: 1px solid #FFA600;
+    border-top: 1px solid #FFA600;
+    color: gray;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.logo {
+    float: left;
+    width: 128px;
+}
+
+.userpanel {
+    width: 250px;
+    float: right;
+    padding-top: 20px;
+}
+
+    .userpanel a {
+        text-decoration: none;
+        color: #FFA600;
+        float: right;
+        padding: 0px 10px;
+    }
+
+.holder {
+}
+
+.contentholder {
+    width: 1000px;
+    float: left;
+}
+
+.menuholder {
+    width: 190px;
+    padding-left: 9px;
+    border-left: 1px solid silver;
+    min-height: 700px;
+    float: left;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+    .menu a li {
+        padding: 10px;
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #FFA600;
+    }
+
+.addvertise {
+    padding: 10px;
+}
+
+.article {
+    -webkit-box-shadow: 5px 5px 11px 1px rgba(0,0,0,0.16);
+    box-shadow: 5px 5px 11px 1px rgba(0,0,0,0.16);
+    border-radius: 10px;
+    padding: 10px;
+    width: 458px;
+    float: left;
+    margin: 10px;
+}
+
+    .article img {
+        width: 100%;
+    }
+
+    .article .topic {
+        color: gray;
+        padding-bottom: 10px;
+        border-bottom: 1px solid silver;
+    }
+
+    .article .addinformation {
+        background-color: #f1f1f1;
+        font-size: 9pt;
+        color: #FFA600;
+        padding: 10px 5px;
+    }
+
+    .article .summary {
+        padding: 10px 0px;
+        min-height: 80px;
+    }
+
+.continuebutton {
+    color: white;
+    float: right;
+    background-color: #FFA600;
+    border-radius: 3px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+    .continuebutton:hover {
+        background-color: #fbbb43;
+    }

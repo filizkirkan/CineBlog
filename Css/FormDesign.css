@@ -1,0 +1,115 @@
+﻿.formholder {
+    display: inline-block;
+    border: 1px solid silver;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.topic {
+    background-color: #BF8F84;
+    padding: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: #012E40;
+}
+
+.content {
+    padding: 20px;
+    width:1200px;
+
+}
+
+.formcontent {
+    padding: 20px;
+}
+
+.row {
+    padding-bottom: 25px;
+}
+
+.textbox {
+    width: 90%;
+    padding: 7px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid silver;
+}
+
+.button {
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: #730337;
+    background-color: #BF8F84;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+    .button:hover {
+        background-color: #BDD9B0;
+    }
+
+.pnlunsuccessful {
+    border: 1px solid darkred;
+    background-color: #ffd2d2;
+    color: darkred;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.pnlsuccessful {
+    border: 1px solid #146b03;
+    background-color: #bdf7b1;
+    color: #146b03;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.section {
+    width: 100%;
+}
+
+    .section thead tr th {
+        border: 1px solid #dedede;
+        padding: 10px;
+        background-color: #f5f5f5;
+    }
+
+    .section tbody tr td {
+        border: 1px solid #dedede;
+        padding: 17px;
+    }
+
+    .section tbody .alt td {
+        border: 1px solid #dedede;
+        padding: 17px;
+        background-color: #BF8F84;
+    }
+
+.listbutton {
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.delete {
+    background-color: #730337;
+    color: white;
+}
+
+.edit {
+    color: #730337;
+    background-color: #BF395D;
+}
+
+.statu {
+    color: white;
+    background-color: #BDD9B0;
+}
+
+.half {
+    width: 49%;
+    min-height: 500px;
+    float: left;
+}

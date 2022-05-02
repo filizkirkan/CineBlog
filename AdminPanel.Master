@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminPanel.Master.cs" Inherits="_2.Sequence.AdminPanel.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/AdminLayout.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--<div>--%>
+            <div class="upperMenu #BF8F84">
+            <div class="Topic #BF395D">
+                <h3>Sequence Admin</h3>
+            </div>
+            <div class="User">
+                <asp:Label ID="lbl_user" runat="server"></asp:Label> | 
+                <asp:LinkButton ID="lbtn_logout" runat="server" OnClick="lbtn_logout_Click">Log Out</asp:LinkButton>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <div class="menu">
+            <ul>
+                <a href="Default.aspx">
+                    <li>Homepage</li>
+                </a>
+               
+                <a href="CategoryListGrid.aspx">
+                    <li>Category List (Grid)</li>
+                </a>
+                 <a href="CategoryListList.aspx">
+                    <li>Category List (List)</li>
+                </a>
+                <a href="AddCategory.aspx">
+                    <li>Add Category</li>
+                </a>
+                
+                <a href="#">
+                    <li>Article List</li>
+                </a>
+                <a href="AddArticle.aspx">
+                    <li>Add Article</li>
+                </a>
+            </ul>
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+     <script src="ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace( 'ContentPlaceHolder1_tb_content' );
+    </script>
+</body>
+</html>
+
+
+
+

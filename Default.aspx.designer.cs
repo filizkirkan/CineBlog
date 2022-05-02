@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _2.Sequence
+namespace _2.Sequence.AdminPanel
 {
 
 

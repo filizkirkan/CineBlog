@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="_2.Sequence.Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminPanel/AdminPanel.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="_2.Sequence.AdminPanel.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -11,14 +11,14 @@
                 <div class="topic">
                     <h3><%# Eval("Topic") %></h3>
                 </div>
-                <img src='Assets/AticlePhotos/<%# Eval("CoverPhoto") %>' />
+                <img src='Assets/MakaleResim/<%# Eval("Coverphoto") %>' />
                 <div class="addinformation">
                     <label style="float:left">
-                        Kategori : <%# Eval("Category") %>
-                    Yazar: <%# Eval("Author") %>
+                        Category : <%# Eval("Category") %>
+                    Author : <%# Eval("Author") %>
                     </label>
                     <label style="float:right">
-                        <%# Eval("Numberofviews") %> Görüntüleme
+                        <%# Eval("Numberofviews") %> View
                     </label>
                     <div style="clear:both"></div>
                 </div>
@@ -27,7 +27,7 @@
                 </div>
                
                 <div >
-                    <a href="#" class="continuebutton">Continue reading...</a>
+                    <a href="#" class="continuebutton">Continue reading</a>
                 </div>
             </div>
         </ItemTemplate>
